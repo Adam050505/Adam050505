@@ -1,0 +1,40 @@
+body {
+    background-image: url('../img/audi_R8.jpg');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 95vh;
+}
+
+img {
+    width: 60%;
+    height: 80vh;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: monospace;
+    font-size: 350%;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+#button {
+    width: 15%;
+    height: 10vh;
+    border-radius: 22px;
+    background:linear-gradient(90deg, cyan, rgb(125, 248, 248), skyblue);
+    font-weight: bold;
+}
+
+#button2 {
+    width: 15%;
+    height: 10vh;
+    border-radius: 22px;
+    background:linear-gradient(90deg, cyan, rgb(125, 248, 248), skyblue);
+}
